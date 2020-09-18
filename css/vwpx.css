@@ -1,0 +1,69 @@
+body{background-color: #f8f9fa!important;}
+.navbar{height:80px}
+.navbar-nav{margin-left:36px}
+.navbar-nav a{font-size:17px; font-family: 'poppins', sans-serif;  margin:5px; margin-top:15px}
+.convertingProccess{background-color:silver; height:370px; margin-top:-60px}
+.VWColumn{width:230px; height:64px; text-align: center; margin:auto; margin-top: 13px;}
+.VWColumn h3{position: relative;}
+.VWColumn textarea{width:230px; height:64px; text-align: center; margin:auto}
+
+
+.PXColumn{width:230px; height:64px; text-align: center; margin:auto; margin-top:40px}
+.PXColumn h3{ position: relative;}
+.PXColumn textarea{width:230px; height: 64px;}
+
+.convertingResult textarea{width:230px; height: 64px;}
+
+
+.convertingResult{text-align: center;
+    margin-left: -156px;
+    margin-top: 25px;}
+
+
+.Intro{width:100%;     margin-top: 46px;
+    background-color: #a6a6f8;
+    height: 190px;
+    margin-bottom: 60px;
+}
+.Intro h3{padding-top: 38px;
+    text-align: center; font-family: 'poppins', sans-serif; font-size:2.4em}
+.Intro p{text-align: center; margin-top:25px}
+.resultEqual{
+    font-size: 33px; text-align: center; margin-top:80px}
+
+.AboutVW{margin-top:40px }
+.AboutVW p{text-align: center; line-height: 35px; margin-top:15px}
+.AboutVW h2{text-align:center; font-family: 'poppins', sans-serif; font-size:2.4em}
+.AboutVW h3{margin-top:15px; margin-left:45px}
+.AboutVW p{ margin-left:45px}
+
+#whatVW{text-align: left; }
+
+
+.page-footer{background-color: #4a4e51!important;
+    height: 78px;
+}
+.footer-copyright{color:white!important; }
+#footera{text-decoration: none!important; color:white!important; }
+.py-3{line-height:50px!important}
+
+
+
+@media screen and (max-width: 992px) {
+   
+.navbar-nav a{text-align: center; color:white!important}
+
+
+.navbar-nav{background-color:silver}
+
+}
+@media screen and (min-width: 992px) {
+    .navbar-nav a{text-align: left; color:rgba(0,0,0,.5)!important}
+    .navbar-nav{background-color:#f8f9fa!important}
+    }
+
+
+    @media screen and (max-width: 472px) {
+
+        .Intro {height:236px}
+    }
